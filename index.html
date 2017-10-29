@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>下一个时代——物联网</title>
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="description" content="下一个时代——物联网">
+	<meta name="keywords" content="下一个时代，物联网">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link rel="icon" href="images/logo.ico">
+	<!-- Bootstrap库的样式表文件和jquery插件的样式表文件 -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/jquery.eeyellow.Timeline.css"/>
+	<!-- 动画变换文件 -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- 主样式表 -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
+
+	<!-- 读取界面 -->
+	<div class="preloader">
+	     <div class="spinner">
+	          <span class="spinner-rotate"></span>
+	     </div>
+	</div>
+
+	<!-- 菜单栏 -->
+	<div class="navbar custom-navbar navbar-fixed-top" role="navigation">
+	     <div class="container" >
+	          <div class="navbar-header">
+	               <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+	                    <span class="icon icon-bar"></span>
+	                    <span class="icon icon-bar"></span>
+	                    <span class="icon icon-bar"></span>
+	               </button>
+	               <a href="index.html" class="navbar-brand">下一个时代——物联网</a>
+	          </div>
+
+	          <div class="collapse navbar-collapse">
+	               <ul class="nav navbar-nav navbar-right">
+	                    <li><a class="smoothScroll" href="#home">主页</a></li>
+	                    <li><a class="smoothScroll" href="#summary">概述</a></li>
+	                    <li><a class="smoothScroll" href="#data">数据</a></li>
+	                    <li><a class="smoothScroll" href="#apply">应用</a></li>
+	                    <!-- <li><a class="smoothScroll" href="#future">未来</a></li> -->
+	               </ul>
+	          </div>
+
+	     </div>
+	</div>
+
+	<!-- 主页 -->
+	<section id="home">
+		 <div class="container" style="z-index: 1">
+	          <div class="row">
+	               <div class="col-md-offset-1 col-md-2 col-sm-3">
+	                    <img src="images/IOT.jpg" class="wow fadeInUp img-responsive img-circle" data-wow-delay="0.2s" alt="about image">
+	               </div>
+	               <div class="col-md-8 col-sm-8">
+	                    <h1 class="wow fadeInUp" data-wow-delay="0.6s">欢迎来到物联网的时代<br>Hey, welcome to the age of IOT</h1>
+	                    <a id="OpenUp" href="#" class="wow fadeInUp btn btn-default section-btn" data-wow-delay="1s">开启未来</a>
+	               </div>
+	          </div>
+	     </div>
+	     <div class="container" style="position: absolute;z-index: -1">
+	     	<canvas id="lizi"></canvas>
+	     </div>
+	</section>
+	
+	<!-- 概述 -->
+	<section id="summary">
+	     <div class="container">
+	          <div class="row">
+	               <div class="col-md-6 col-sm-12">
+	                    <div class="about-thumb">
+	                         <div class="wow fadeInUp section-title" data-wow-delay="0.6s">
+	                              <h2>物联网的故事</h2>
+	                              <p>
+	                              	<strong>物联网不是一个新的东西，它其实已经早已深入我们的生活与学习之中</strong>
+	                              </p>
+	                         </div>
+	                         <div class="wow fadeInUp" data-wow-delay="0.8s">
+	                         	<div class="wow fadeInUp" data-wow-delay="0.8s">
+	                         		 <p>通过信息传感设备，按约定的协议，把任何物品与互联网连接起来，进行信息交换和通讯，以实现智能化识别、定位、跟踪、监控和管理的一种网络。
+		                              <strong>简而言之，物联网就是“物物相连的互联网”，是互联网+。</strong>
+	                            	</p>
+	                            	<br>
+	                         	</div>     
+		                            <div class="wow fadeInUp" data-wow-delay="0.8s">
+			                            <p>中国物联网校企联盟将物联网的定义为当下几乎所有技术与计算机、互联网技术的结合，实现物体与物体之间：环境以及状态信息实时的实时共享以及智能化的收集、传递、处理、执行。广义上说，当下涉及到信息技术的应用，都可以纳入物联网的范畴.
+			                            </p>                          
+		                            </div>
+		                            <br>
+		                            <div class="wow fadeInUp" data-wow-delay="0.6s">
+		                            	<p>
+		                            		而在其著名的科技融合体模型中，提出了物联网是当下最接近该模型顶端的科技概念和应用。物联网是一个基于互联网、传统电信网等信息承载体，让所有能够被独立寻址的普通物理对象实现互联互通的网络。其具有：智能、先进、互联的三个重要特征。
+		                            	</p>
+									</div>
+									<br>
+									<div class="wow fadeInUp" data-wow-delay="0.8s">
+										<p>
+											国际电信联盟( ITU) 发布的ITU 互联网报告，对物联网做了如下定义：通过二维码识读设备、射频识别(RFID) 装置、红外感应器、全球定位系统和激光扫描器等信息传感设备，按约定的协议，把任何物品与互联网相连接，进行信息交换和通信，以实现智能化识别、定位、跟踪、监控和管理的一种网络。
+										</p>
+									</div>
+									<br>
+									<div class="wow fadeInUp" data-wow-delay="0.8s">
+										<p>
+											根据国际电信联盟(ITU)的定义，物联网主要解决物品与物品(Thing to Thing,T2T)，人与物品 (Human to Thing,H2T)，人与人(Human to Human,H2H)之间的互连。但是与传统互联网不同的是,H2T是指人利用通用装置与物品之间的连接,从而使得物品连接更加的简化，而H2H是指人之间不依赖于PC而进行的互连。因为互联网并没有考虑到对于任何物品连接的问题，故我们使用物联网来解决这个传统意义上的问题。<br><br>
+										</p>
+									</div>
+									<br>
+									<div class="wow fadeInUp" data-wow-delay="0.8s">
+										<p>
+											 物联网顾名思义就是连接物品的网络,许多学者讨论物联网中，经常会引入一个M2M的概念,可以解释成为人到人(Man to Man)、人到机器(Man to Machine)、机器 到机器从本质上而言，在人与机器、机器与机器的交互，大部分是为了实现人与人之间的信息交互。<br><br>
+										</p>
+									</div>
+									<br>
+									<div class="wow fadeInUp" data-wow-delay="0.8s">
+										<p>
+											物联网是指通过各种信息传感设备，实时采集任何需要监控、连接、互动的物体或过程等各种需要的信息，与互联网结合形成的一个巨大网络。其目的是实现物与物、物与人，所有的物品与网络的连接，方便识别、管理和控制。其在2011年的产业规模超过2600亿元人民币。构成物联网产业五个层级的支撑层、感知层、传输层、平台层，以及应用层分别占物联网产业规模的2.7%、22.0%、33.1%、37.5%和4.7%。而物联网感知层、传输层参与厂商众多，成为产业中竞争最为激烈的领域。
+										</p>
+									</div>
+									<br>
+									<div class="wow fadeInUp" data-wow-delay="0.8s">
+										<p>
+											产业分布上，国内物联网产业已初步形成环渤海、长三角、珠三角，以及中西部地区等四大区域集聚发展的总体产业空间格局。其中，长三角地区产业规模位列四大区域之首。
+										</p>
+									</div>
+									<br>
+									<div class="wow fadeInUp" data-wow-delay="0.8s">
+										<p>
+											与此同时物联网的提出为国家智慧城市建设奠定了基础，实现智慧城市的互联互通协同共享，《计算机学报》刊发的《物联网体系结构与实现方法的比较研究一文对其体系结构、实现方法进行了分析介绍。
+										</p>
+									</div>
+	                         </div>
+	                    </div>
+	               </div>
+
+	               <div class="col-md-6 col-sm-12">
+	                    <div class="wow fadeInUp" data-wow-delay="0.4s">
+	                         <h2 style='text-align:center'><small>发展时间线</small></h2>
+	                    </div>
+	                        <div class="VivaTimeline">
+						        <dl>
+						          <div class="wow fadeInUp" data-wow-delay="0.6s">
+						          	  <dt>1995年</dt>
+							          <dd class="pos-left clearfix">
+							          <div class="circ"></div>
+							              <div class="events">
+							                    <div class="events-header">《未来之路》</div>
+							                    <div class="events-body">
+							                          <div class="events-desc">
+							                                比尔盖茨在《未来之路》一书中也曾提及物联网，但未引起广泛重视
+							                          </div>
+							                    </div>
+							                    <div class="events-footer">
+							                        ...
+							                    </div>
+							              </div>
+							          </dd>
+						          </div>
+						          <div class="wow fadeInUp" data-wow-delay="0.6s">
+							          <dt>1999年</dt>
+							          <dd class="pos-right clearfix">
+							          <div class="circ"></div>
+							              <div class="events">
+							                    <div class="events-header">万物皆可通过网络互联</div>
+							                    <div class="events-body">
+							                          <div class="events-desc">
+							                                美国麻省理工学院（MIT）的Kevin Ash-ton教授首次提出物联网的概念
+							                          </div>
+							                    </div>
+							                    <div class="events-footer">
+							                        美国麻省理工学院建立了自动识别中心
+							                    </div>
+							              </div>
+							          </dd>
+							       </div>
+							       <div class="wow fadeInUp" data-wow-delay="0.6s">
+							          <dt>2004年</dt>
+							          <dd class="pos-left clearfix">
+							          <div class="circ"></div>
+							              <div class="events">
+							                    <div class="events-header">u-Japan</div>
+							                    <div class="events-body">
+							                          <div class="events-desc">
+							                                日本总务省提出u-Japan计划，该战略力求实现人与人、物与物、人与物之间的连接，希望将日本建设成一个随时、随地、任何物体、任何人均可连接的泛在网络社会。
+							                          </div>
+							                    </div>
+							                    <div class="events-footer">
+							                        ...
+							                    </div>
+							              </div>
+							          </dd>
+							       </div>
+							       <div class="wow fadeInUp" data-wow-delay="0.6s">
+							          <dt>2006年</dt>
+							          <dd class="pos-left clearfix">
+							          <div class="circ"></div>
+							              <div class="events">
+							                    <div class="events-header">u-Korea</div>
+							                    <div class="events-body">
+							                          <div class="events-desc">
+							                                韩国确立了u-Korea计划，该计划旨在建立无所不在的社会，在民众的生活环境里建设智能型网络和各种新型应用，让民众可以随时随地享有科技智慧服务。
+							                          </div>
+							                    </div>
+							                    <div class="events-footer">
+							                        ...
+							                    </div>
+							              </div>
+							          </dd>
+							       </div>
+							       <div class="wow fadeInUp" data-wow-delay="0.6s">
+							          <dt>2009年</dt>
+							          <dd class="pos-left clearfix">
+							          <div class="circ"></div>
+							          <div class="time">1月28日</div>
+							              <div class="events">
+							                    <div class="events-header">智慧地球</div>
+							                    <div class="events-body">
+							                          <div class="events-desc">
+							                                奥巴马就任美国总统后，美国首次提出“智慧地球”的概念
+							                          </div>
+							                    </div>
+							                    <div class="events-footer">
+							                        ...
+							                    </div>
+							              </div>
+							          </dd>
+							          <dd class="pos-right clearfix">
+							          <div class="circ"></div>
+							          <div class="time">8月</div>
+							              <div class="events">
+							                    <div class="events-header">感知中国</div>
+							                    <div class="events-body">
+							                          <div class="events-desc">
+							                                温家宝“感知中国”的讲话把我国物联网领域的研究和应用开发推向了高潮
+							                          </div>
+							                    </div>
+							                    <div class="events-footer">
+							                        ...
+							                    </div>
+							              </div>
+							          </dd>
+							       </div>
+						        </dl>
+						  </div>
+	               </div>
+	          </div>
+	     </div>
+	</section>
+
+	<!-- 数据 -->
+	<section id="data">
+	     <div class="container">
+	          <div class="row">
+	               <div class="col-md-4 col-sm-6">
+	                    <div class="wow fadeInUp section-title" data-wow-delay="0.2s">
+	                         <h2>物联网的数据</h2>
+	                         <p>据物联网行业统计数据显示，2015年全球物联网市场规模达到 624 亿美元，同比增长 29%。到 2018 年全球物联网设备市场规模有望达到 1036 亿美元，2013 年至 2018 年复合成长率将达 21%，2019年新增的物联网设备接入量将从2015 年的16.91 亿台增长到30.54亿台。</p>
+	                         <p>
+	                         	<strong>可以明显的看到，整个物联网行业发展的越来越快，越来越庞大！</strong>
+	                         </p>
+	                    </div>
+	               </div>
+	               <div class="col-md-offset-1 col-md-6 col-sm-6">
+	                    <div class="data-thumb">
+		                    <div class="wow fadeInUp" data-wow-delay="0.2s">
+		                    	<h3>2013-2018年全球物联网市场规模及增速</h3>
+		                    </div>
+	                         <div class="wow fadeInUp" data-wow-delay="1s">
+	                              <strong>2013年 398亿美元</strong>
+	                              <span class="pull-right">增长了21%</span>
+	                              <div class="progress">
+	                                    <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 33.16%;"></div>
+	                              </div>
+	                         </div>
+	                         <div class="wow fadeInUp" data-wow-delay="1.2s">
+	                              <strong>2014年 483亿美元</strong>
+	                              <span class="pull-right">增长了21%</span>
+	                              <div class="progress">
+	                                   <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 40.25%;"></div>
+	                              </div>
+	                         </div>
+	                         <div class="wow fadeInUp" data-wow-delay="1.4s">
+	                              	<strong>2015年 624亿美元</strong>
+	                              	<span class="pull-right">增长了29%</span>
+	                                <div class="progress">
+	                                    <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 52%;">
+	                                    </div>
+	                                </div>
+	                         </div>
+	                         <div class="wow fadeInUp" data-wow-delay="1.4s">
+	                              	<strong>2016年 700亿美元</strong>
+	                              	<span class="pull-right">增长了21%</span>
+	                                <div class="progress">
+	                                    <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 58.33%;">
+	                                    </div>
+	                                </div>
+	                         </div>
+	                         <div class="wow fadeInUp" data-wow-delay="1.4s">
+	                              	<strong>2017年 798亿美元</strong>
+	                              	<span class="pull-right">增长了14%</span>
+	                                <div class="progress">
+	                                    <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 66.5%;">
+	                                    </div>
+	                                </div>
+	                         </div>
+	                         <div class="wow fadeInUp" data-wow-delay="1.4s">
+	                              	<strong>2018年 1036亿美元</strong>
+	                              	<span class="pull-right">增长了30%</span>
+	                                <div class="progress">
+	                                    <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 86.3%;">
+	                                    </div>
+	                                </div>
+	                         </div>
+	                    </div>
+	               </div>
+	          </div>
+	          <br>
+	          <div class="row">
+	          		<div class=' col-md-6 col-sm-6 wow fadeInUp' data-wow-delay='1.0s'>
+	          			<h3 style="text-align: center;">2013-2017年中国物联网市场规模</h3>
+	          			<div id="chartOne" style="width: 100%;height:400px;"></div>
+	          		</div>
+	          		<div class=' col-md-6 col-sm-6 wow fadeInUp' data-wow-delay='1.0s'>
+	          			<h3 style="text-align: center;">2014-2017年中国物联网行业发展现状</h3>
+	          			<div id="chartTwo" style="width: 100%;height:400px;"></div>
+	          		</div>
+	          </div>
+	     </div>
+	</section>
+
+
+	<!-- 应用 -->
+	<section id="apply">
+	     <div class="container">
+	          <div class="row">
+	               <div class=" col-md-12 col-sm-12">
+	                    <div class="wow fadeInUp section-title" data-wow-delay="0.2s">
+	                         <h2>物联网的应用</h2>
+	                         <p>基本上，被冠以“智能”前缀的，都是物联网的应用</p>
+	                         <br>
+	                         <p>智能家居,智能商业和智能餐厅用视频演示
+	                         	<br><strong>智能交通用轨迹回放演示</strong></p>
+	                    </div>
+	               </div>
+	               <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.4s">
+	                    <div class="work-thumb">
+	                         <a id="ZNjiaju" target="_black" class="image-popup">
+	                              <img src="images/ZNjiaju.jpg" class="img-responsive" alt="">
+	                         </a>
+	                    </div>
+	                    <h4>智能家居</h4>
+	               </div>
+	               <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.6s">
+	                    <div class="work-thumb">
+	                         <a id='ZNjiaotong' target="_black" class="image-popup">
+	                              <img src="images/ZNjiaotong.jpg" class="img-responsive" alt="">
+	                         </a>
+	                    </div>
+	                    <h4>智能交通</h4>
+	               </div>
+	               <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.8s">
+	                    <div class="work-thumb">
+	                         <a id="ZNnongye" class="image-popup">
+	                              <img src="images/ZNnongye.jpg" class="img-responsive" alt="">
+	                         </a>
+	                    </div>
+	                    <h4>智能农业</h4>
+	               </div>
+	               <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.8s">
+	                    <div class="work-thumb">
+	                         <a id="ZNketang" class="image-popup">
+	                              <img src="images/ZNketang.jpg" class="img-responsive" alt="">
+	                         </a>
+	                    </div>
+	                    <h4>智能课堂</h4>
+	               </div>
+	               <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.8s">
+	                    <div class="work-thumb">
+	                         <a id="ZNshangye" target="_black" class="image-popup">
+	                              <img src="images/ZNshangye.jpg" class="img-responsive" alt="">
+	                         </a>
+	                    </div>
+	                    <h4>智能商业</h4>
+	               </div>
+	               <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.8s">
+	                    <div class="work-thumb">
+	                         <a id="ZNcanting" target="_black" class="image-popup">
+	                              <img src="images/ZNcanting.jpg" class="img-responsive" alt="">
+	                         </a>
+	                    </div>
+	                    <h4>智能餐厅</h4>
+	               </div>
+	          </div>
+	     </div>
+	</section>
+
+
+	<!-- 未来 -->
+	<!-- <section id="future">
+	     <div class="container">
+	          <div class="row">
+	               <div class="col-md-12 col-sm-12">
+	                    <div class="wow fadeInUp section-title" data-wow-delay="0.2s">
+	                         <h2>未来?</h2>
+	                         <p>畅想未来吧</p>
+	                    </div>
+	               </div>
+	          </div>
+	     </div>
+	</section> -->
+	<!-- jquery库需要的js文件及相应的插件 -->
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src='js/jquery.eeyellow.Timeline.js'></script>
+	<!-- Bootstrap库需要的js文件 -->
+	<script src="js/bootstrap.min.js"></script>	
+	<!-- echarts库的js文件 -->
+	<script src='js/echarts.common.min.js'></script>
+	<!-- echart图表的控制文件 -->
+	<script src='js/chart-data.js'></script>
+	<!-- 菜单栏锁定js控制文件 -->
+	<script src="js/smoothscroll.js"></script>
+	<!-- 元素缓慢进入效果js控制文件 -->
+	<script src="js/wow.min.js"></script>
+	<script src="js/custom.js"></script>
+	<!-- 弹出层jqeruy插件的js文件 -->
+	<script src='layer/layer.js'></script>
+	<!-- 弹出层控制index.js文件 -->
+	<script src='js/layerController.js'></script>
+	<!-- 首页粒子特效js文件 -->
+	<script src="js/ban.js"></script>
+</body>
+</html>
